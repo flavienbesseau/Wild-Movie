@@ -1,0 +1,9 @@
+.custom-carousel {
+  width: 80%;
+  margin: 5% auto 5%;
+  box-shadow: 0 0 10px gray;
+}
+
+img.custom-img-carousel {
+  width: 100%;
+}

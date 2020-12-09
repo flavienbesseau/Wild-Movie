@@ -1,0 +1,117 @@
+.isFavorite {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://i.ibb.co/3Ncgn6W/fullheartred.png");
+  background-size: 100%;
+  align-self: flex-start;
+  background-repeat: no-repeat;
+}
+
+.notFavorite {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://i.ibb.co/gmTpbp6/emptyheartwhite.png");
+  background-size: 100%;
+  align-self: flex-start;
+  background-repeat: no-repeat;
+}
+
+.seen {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://i.ibb.co/C8SZK1m/blackeye.png");
+  background-size: 100%;
+  align-self: flex-start;
+  background-repeat: no-repeat;
+}
+
+.notSeen {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://i.ibb.co/CwQtXjp/blackclosedeye.png");
+  background-size: 100%;
+  align-self: flex-start;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-image: url("https://i.ibb.co/sWMDcTz/Sans-titre.png");
+  background-attachment: fixed;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  padding-bottom: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: 3%;
+}
+
+@media (max-width: 600px) {
+  .title {
+    color: white;
+    padding-bottom: 1%;
+    font-size: 2em;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 5%;
+  }
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0, 5em;
+}
+
+.myProfile {
+  color: white !important;
+  font-size: 1.3em;
+  margin-right: 50px;
+}
+
+.dropdown {
+  border: none;
+  color: white !important;
+}
+
+.dropdown a:hover {
+  outline: 0;
+  color: white;
+  background-color: transparent;
+}
+
+.dropdown a:focus {
+  outline: 0;
+  background-color: transparent;
+}
+
+.navlink {
+  color: white !important;
+  font-size: 1.3em;
+  margin-right: 50px;
+}
+
+@media (max-width: 600px) {
+  .navlink {
+    font-size: 1.1em;
+    text-align: center;
+    margin-right: 0px;
+  }
+}
+
+.nav {
+  height: 20%;
+  background-color: transparent;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.logo {
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 100%;
+  }
+}
+
